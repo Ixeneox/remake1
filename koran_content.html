@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <title>project DoPa</title>
+</head>
+<body id="bodyfather">
+    <div id="getmeconta"> <label id="getback" onclick="getback()"><i  class="fa-solid fa-arrow-up" style="font-size: 2rem;"></i></label>
+    </div>
+    
+    <header id="headi">
+        <div id="headconta">
+            <!-- <div id="icons">
+                <img src="https://cdn-icons-png.flaticon.com/512/606/606795.png " alt="" width="23px" height="23px" onclick="lightmode()"  id="ico1">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3094/3094125.png" alt="" width="20px" height="20px" onclick="darkmode()" id="ico2">
+                
+            </div> -->
+
+            <div id="links">
+                <a id="links1" href="index.html"> الصفحة الرئيسية</a>
+                <a id="links1" href="koran_content.html">  فهرس القران</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="mainpage">
+        
+        <div id="mainpageconta">
+            
+
+            <div id="soracontasec">
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus1()" id="sus1">1-الفاتحة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus2()" id="sus2">2-البقرة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus3()" id="sus3">3-آل عمران</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus4()" id="sus4">4-النساء</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus5()" id="sus5">5-المائدة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus6()" id="sus6">6-الأنعام</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus7()" id="sus7">7-الأعراف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus8()" id="sus8">8-الأنفال</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus9()" id="sus9">9-التوبة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus10()" id="sus10">10-يونس</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus11()" id="sus11">11-هود</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus12()" id="sus12">12-يوسف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus13()" id="sus13">13-الرعد</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus14()" id="sus14">14-أبراهيم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus15()" id="sus15">15-الحجر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus16()" id="sus16">16-النحل</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus17()" id="sus17">17-الإسراء</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus18()" id="sus18">18-الكهف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus19()" id="sus19">19-مريم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus20()" id="sus20">20-طه</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus21()" id="sus21">21-الأنبيا</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus22()" id="sus22">22-الحج</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus23()" id="sus23">23-المؤمنون</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus24()" id="sus24">24-النور</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus25()" id="sus25">25-الفرقان</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus26()" id="sus26">26-الشعراء</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus27()" id="sus27">27-النمل</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus28()" id="sus28">28-القصص</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus29()" id="sus29">29-العنكبوت</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus30()" id="sus30">30-الروم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus31()" id="sus31">31-لقمان</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus32()" id="sus32">32-السجدة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus33()" id="sus33">33-الأحزاب</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus34()" id="sus34">34-سبأ</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus35()" id="sus35">35-فاطر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus36()" id="sus36">36-يس</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus37()" id="sus37">37-الصافات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus38()" id="sus38">38-ص</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus39()" id="sus39">39-الزمر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus40()" id="sus40">40-غافر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus41()" id="sus41">41-فصلت</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus42()" id="sus42">42-الشورى</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus43()" id="sus43">43-الزخرف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus44()" id="sus44">44-الدخان</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus45()" id="sus45">45-الجاثية</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus46()" id="sus46">46-الأحقاف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus47()" id="sus47">47-محمد </button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus48()" id="sus48">48-الفتح</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus49()" id="sus49">49-الحجرات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus50()" id="sus50">50-ق</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus51()" id="sus51">51-الذاريات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus52()" id="sus52">52-الطور</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus53()" id="sus53">53-النجم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus54()" id="sus54">54-القمر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus55()" id="sus55">55-الرحمن</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus56()" id="sus56">56-الواقعة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus57()" id="sus57">57-الحديد</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus58()" id="sus58">58-المجادلة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus59()" id="sus59">59-الحشر </button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus60()" id="sus60">60-الممتحنة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus61()" id="sus61">61-الصف</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus62()" id="sus62">62-الجمعة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus63()" id="sus63">63-المنافقون</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus64()" id="sus64">64-التغابن</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus65()" id="sus65">65-الطلاق </button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus66()" id="sus66">66-التحريم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus67()" id="sus67">67-الملك </button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus68()" id="sus68">68-القلم</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus69()" id="sus69">69-الحاقة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus70()" id="sus70">70-المعارج</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus71()" id="sus71">71-نوح</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus72()" id="sus72">72-الجن</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus73()" id="sus73">73-المزمل</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus74()" id="sus74">74-المدثر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus75()" id="sus75">75-القيامة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus76()" id="sus76">76-الإنسان</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus77()" id="sus77">77-المرسلات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus78()" id="sus78">78-النبأ</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus79()" id="sus79">79-النازعات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus80()" id="sus80">80-عبس</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus81()" id="sus81">81-التكوير</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus82()" id="sus82">82-الانفطار</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus83()" id="sus83">83-المطففين</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus84()" id="sus84">84-الانشقاق</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus85()" id="sus85">85-البروج</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus86()" id="sus86">86-الطارق</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus87()" id="sus87">87-الأعلى</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus88()" id="sus88">88-الغاشية</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus89()" id="sus89">89-الفجر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus90()" id="sus90">90-البلد</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus91()" id="sus91">91-الشمس</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus92()" id="sus92">92-الليل</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus93()" id="sus93">93-الضحى</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus94()" id="sus94">94-الشرح</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus95()" id="sus95">95-التين</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus96()" id="sus96">96-العلق</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus97()" id="sus97">97-القدر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus98()" id="sus98">98-البينة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus99()" id="sus99">99-الزلزلة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus100()" id="sus100">100-العاديات</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus101()" id="sus101">101-القارعة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus102()" id="sus102">102-التكاثر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus103()" id="sus103">103-العصر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus104()" id="sus104">104-الهُمزة</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus105()" id="sus105">105-الفيل</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus106()" id="sus106">106-قريش</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus107()" id="sus107">107-الماعون</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus108()" id="sus108">108-الكوثر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus109()" id="sus109">109-الكافرون</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus110()" id="sus110">110-النصر</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus111()" id="sus111">111-المسد</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus112()" id="sus112">112-الإخلاص</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus113()" id="sus113">113-الفلق</button>
+                <button type="button" class="btn btn-outline-success"onclick="showmethesus114()" id="sus114">114-الناس</button>
+            </div>
+         
+          
+        </div>
+    </div>
+
+
+      
+    
+
+    <footer id="footi">
+        <div id="footerconta">
+            <div><p id="info">Designed By DoPa(demo version)
+            </p></div>
+            <div id="socials">
+                <a href=""><i class="fa-brands fa-instagram" ></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook" ></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>

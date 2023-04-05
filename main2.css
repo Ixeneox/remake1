@@ -1,0 +1,117 @@
+/*
+
+:root {
+    --white:#eeeeee;
+    --black:#343A40;
+     --blue:#0075ff;
+    --greanish:#22A5AD;
+}
+
+
+#mainpagesec{
+
+    background-color: var(--black);
+    display: grid;
+    place-items: center;
+    padding: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+#contapagesec{
+    direction: rtl;
+    width: 600px;
+    min-height:fit-content;
+    padding: 10px;
+    box-shadow: 20px 16px 20px 5px black;
+    background-color: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+#contapagesec button{
+
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: default;
+
+}
+
+
+@media (max-width:500px){
+
+    #contapagesec{
+        width: 300px;
+    }
+
+
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Amiri;
+    scroll-behavior: smooth;
+    
+}
+#soracontasec{
+   width: 600px;
+    min-height: 400px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: var(--black);
+    color: #eeeeee;
+    box-shadow: 20px 16px 20px 5px black;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    line-height: 55px;
+    padding: 20px;
+    direction: rtl;
+    letter-spacing: 0.5px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#soracontasec button{
+
+    margin: 10px;
+    cursor: default;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #eeeeee;
+
+
+}
+
+@media (max-width:500px){
+
+    #headconta{ width: 300px; justify-content: space-evenly;}
+    #icons i{font-size: 0.9rem; padding-left:10px ;}
+    #links a{ font-size: 0.7rem; padding-left: 10px;}
+    #mainpageconta{width: 300px;}
+    #searchconta{width:270px;}
+    #inputbar{width: 270px;}
+    #inputvalue{width: 220px; font-size: 0.6rem;}
+    #buttonsconta{width:270px;}
+    #soraconta{width: 270px; font-size: 1rem; line-height: 35px;}
+    #soracontasec{width: 270px; font-size: 1rem; line-height: 35px;}
+    #footerconta{width: 300px; font-size: 0.8rem;} 
+    #suggetsconta{width: 300px; font-size: 0.8rem;} 
+    #getback{left: 85%; width: 30px; height: 30px; font-size: 0.4;}
+    .btn {font-size: 0.7rem !important;}
+    .fa-solid{ font-size: 0.7rem !important;}
+    #socials  { font-size: 0.8rem;} 
+    #audioconta{ width: 300px;}
+}
